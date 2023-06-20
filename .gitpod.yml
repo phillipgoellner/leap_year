@@ -1,0 +1,9 @@
+image: gitpod/workspace-java-17
+
+tasks:
+  - init: gradle test
+    command: gradle test --continuous
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
